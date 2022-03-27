@@ -58,7 +58,6 @@ header div.input {
     margin: 2px;
 }
 
-
 header nav {
     font-size: 12px;
     display: none;
@@ -326,11 +325,11 @@ footer section {
         width: 150px;
     }
 
-    header div.form{
+    header div.form {
         display: flex;
         width: 30%;
     }
-    header nav{
+    header nav {
         display:flex;
         justify-content: space-between;
     }
@@ -373,4 +372,5 @@ footer section {
         box-shadow: 0 0 10px rgb(100,100,100);
         flex: 22%;
         margin: 10px;
+    }
 }
