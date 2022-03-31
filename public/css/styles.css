@@ -236,6 +236,7 @@ footer section {
     padding: 10px;
 }
 
+/*Página de login*/
 .login-container {
     margin: auto;
     display: flex;
@@ -286,6 +287,48 @@ form .login-button a {
     border-radius: 4px;
     border: none;
 }
+
+/*Página de login*/
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.form-register [type="submit"], .form-register [type="reset"] {
+    background-color: #3583fa;
+    margin: 20px;
+    color: #ebebeb;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border:none;
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.form-register * {
+    margin-top: 10px;
+}
+
+.form-register [type="text"], .form-register [type="date"], .form-register [type="password"], .form-register [type="email"] {
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    height: 30px;
+    padding: 4px;
+}
+
+.div-submit {
+    justify-content: end;
+}
+
 
 @media (min-width:361px) and (max-width: 761px) {
     .description {
@@ -355,8 +398,7 @@ form .login-button a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-
+    }   
     
 }
 
