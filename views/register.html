@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        function validar() {
-            if (document.getElementById("password").value == document.getElementById("password-verify").value) {
-                document.getElementById("password-verify").style.backgroundColor = "green"
-                document.getElementById("password-error-message").innerHTML = undefined
+        function validar(){
+            if(document.getElementById("pass").value == document.getElementById("passVerify").value){
+                document.getElementById("passVerify").style.backgroundColor = 'green'
+                document.getElementById("pwsd-error-msg").innerHTML = ''
+            }else{
+                document.getElementById("passVerify").style.backgroundColor = 'pink'
+                document.getElementById("pwsd-error-msg").innerHTML = 'Error'
             }
-            else {
-                document.getElementById("password-verify").style.backgroundColor = "pink"
-                document.getElementById("password-error-message").innerHTML = "Las contraseñas no coinciden"
-            }
+            console.log("paso");
         }
     </script>
 </head>
@@ -81,7 +81,7 @@
             </label>
             <input type="file" accept="image/png, image/jpeg, image/jpg" value="Foto de pergil" id="avatar">
             <input type="password" id="pass" placeholder="Escribe tu contraseña" required minlength="8">
-            <input type="password" id="passverify" placeholder="Confirma tu contraseña" required onkeyup="validar()">
+            <input type="password" id="passVerify" placeholder="Confirma tu contraseña" required onkeyup="validar()">
             <div>
                 <span id="password-error-message"></span>
             </div>
