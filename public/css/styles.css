@@ -353,6 +353,7 @@ form .login-button a {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
+    text-align: right;
 }
 
 @media (min-width:400px) and (max-width: 761px) {
