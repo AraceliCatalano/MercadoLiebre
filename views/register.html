@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="main-header">
         <div class="top-header">
             <div class="logo">
                 <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
@@ -32,11 +32,12 @@
                 <div class="input">Buscar productos, marcas y más</div>
                 <div class="submit"><i class="fa fa-search"></i></div>
             </div>
-            <div>
-                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-            </div>
+            <p class="copy-header"> 
+                <i class="fas fa-hand-holding-usd"></i> 
+                Compra en cuotas y sin tarjeta de crédito
+            </p>
         </div>
-        <nav>
+        <nav class="main-navbar">
             <ul class="main-nav-list">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
@@ -64,8 +65,10 @@
             <input type="text" placeholder="Domicilio" required>
             <h4>Perfil de usuario</h4>
             <div>
-                <label for="comprador"><input type="radio" id="comprador" name="tipo-de-usuario" value="c" checked>Comprador</label>
-                <label for="vendedor"><input type="radio" id="vendedor" name="tipo-de-usuario" value="v" checked>Vendedor</label>
+                <label for="comprador"><input type="radio" id="comprador" name="tipo-de-usuario" value="c"
+                        checked>Comprador</label>
+                <label for="vendedor"><input type="radio" id="vendedor" name="tipo-de-usuario" value="v"
+                        checked>Vendedor</label>
             </div>
             <h4>Intereses</h4>
             <label for="electro"><input type="checkbox" id="electro" value="electro">Electro</label>
@@ -73,7 +76,9 @@
             <label for="hogar"><input type="checkbox" id="hogar" value="hogar">Hogar</label>
             <label for="jugueteria"><input type="checkbox" id="jugueteria" value="jugueteria">Juguetería</label>
             <label for="vida-sana"><input type="checkbox" id="vida-sana" value="vida-sana">Vida sana</label>
-            <label for="avatar">Elegí una foto de perfil</label>
+            <label for="avatar">
+                <h4></h4>Elegí una foto de perfil
+            </label>
             <input type="file" accept="image/png, image/jpeg, image/jpg" value="Foto de pergil" id="avatar">
             <input type="password" id="pass" placeholder="Escribe tu contraseña" required minlength="8">
             <input type="password" id="passverify" placeholder="Confirma tu contraseña" required onkeyup="validar()">
@@ -88,7 +93,7 @@
 
     </div>
 
-    
+
     <footer>
 
         <section>
@@ -117,15 +122,16 @@
                 <h4>Seguridad, de principio a fin</h4>
             </div>
             <div>
-                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+                    protegid@.</p>
             </div>
         </section>
-        <section>
-            <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
-        </section>
+        <div>
+            <h6>Copyright © 1999-2020 MercadoLiebre S.R.L.</h6>
+        </div>
 
     </footer>
-    
+
 
 </body>
 
