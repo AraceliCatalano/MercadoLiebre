@@ -156,7 +156,7 @@ h3,
 }
 
 section.banner {
-    margin-top: 215px; 
+    margin-top: 210px; 
 }
 section.banner img{
     width: 100%;
@@ -441,7 +441,9 @@ form .login-button a {
     form .login-button {
         width: 100%;
     }
-    
+    section.banner {
+        margin-top: 150px; 
+    }
     
 }
 
@@ -567,7 +569,7 @@ form .login-button a {
         flex-wrap: nowrap;
     }
     section.banner, .login-container {
-        margin-top: 130px; 
+        margin-top: 125px; 
     }
     form .user-name-login, form .password, form .login-button-container {
         margin: 10px;
@@ -627,7 +629,11 @@ form .login-button a {
     .form-register {
         width: 50%;
     }
-    section.banner, .login-container {
+    section.banner {
+        margin-top: 130px; 
+    }
+
+    .login-container {
         margin-top: 150px; 
     }
 
